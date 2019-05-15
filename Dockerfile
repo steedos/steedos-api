@@ -6,8 +6,8 @@ ADD . /steedos-api
 
 WORKDIR /steedos-api
 
-RUN tsc
-
 RUN yarn --force
+
+RUN tsc
 
 CMD ["node", "lib/index.js"]
