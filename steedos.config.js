@@ -7,7 +7,7 @@ module.exports = {
   datasources: {
     default: {
       driver: 'mongo',
-      url: 'mongodb://127.0.0.1/steedos',
+      url: 'mongodb://172.17.5.127:27017/steedos',
       objectFiles: [objectFilesPath]
     }
   }
