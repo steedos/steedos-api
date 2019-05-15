@@ -1,0 +1,14 @@
+{
+  "name": "steedos-api",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "repository": "https://github.com/steedos/steedos-api.git",
+  "author": "sunhaolin <sunhaolin@hotoa.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@steedos/auth": "^1.0.2",
+    "@steedos/objectql": "^0.0.4",
+    "express": "^4.16.4",
+    "underscore": "^1.9.1"
+  }
+}

@@ -1,0 +1,60 @@
+name: OAuth2Clients
+label: OAuth2应用
+icon: entity
+enable_search: false
+fields:
+  clientName:
+    label: 名称
+    type: text
+    is_name: true
+    required: true
+    name: clientName
+  active:
+    label: 是否激活
+    type: boolean
+    defaultValue: true
+    name: active
+  expires:
+    label: 有效期（小时）
+    type: number
+    defaultValue: "1"
+    name: expires
+  redirectUri:
+    type: text
+    label: 回调URL
+    required: true
+    is_wide: true
+    name: redirectUri
+  clientId:
+    type: text
+    label: 客户端ID
+    is_wide: true
+    name: position
+  clientSecret:
+    type: text
+    label: 密钥
+    is_wide: true
+    name: clientSecret
+list_views:
+  all:
+    label: 所有
+    columns:
+      - clientName
+      - active
+      - redirectUri
+
+permission_set:
+  user:
+    allowCreate: false
+    allowDelete: false
+    allowEdit: false
+    allowRead: false
+    modifyAllRecords: false
+    viewAllRecords: false
+  admin:
+    allowCreate: true
+    allowDelete: true
+    allowEdit: true
+    allowRead: true
+    modifyAllRecords: true
+    viewAllRecords: true
