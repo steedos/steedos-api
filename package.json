@@ -6,7 +6,7 @@
   "author": "sunhaolin <sunhaolin@hotoa.com>",
   "license": "MIT",
   "dependencies": {
-    "@steedos/auth": "^1.0.2",
+    "@steedos/auth": "^1.0.3",
     "@steedos/objectql": "^0.0.4",
     "express": "^4.16.4",
     "underscore": "^1.9.1"
