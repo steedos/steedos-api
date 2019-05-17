@@ -7,8 +7,12 @@
   "license": "MIT",
   "dependencies": {
     "@steedos/auth": "^1.0.3",
+    "@steedos/core": "^1.1.11",
     "@steedos/objectql": "^0.0.4",
+    "@steedos/standard-objects": "file:C:\\Users\\dell\\Documents\\GitHub\\object-server\\packages\\standard-objects",
+    "cookies": "^0.7.3",
     "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
     "underscore": "^1.9.1"
   }
 }
