@@ -41,7 +41,7 @@ graphqlRouter.use((req, res, next) => {
         res.status(401).send({ errors: [{ 'message': 'You must be logged in to do this.' }] });
 })
 _.each(steedosSchema.getDataSources(), (datasource, name) => {
-    graphqlRouter.use("/#{name}", graphqlHTTP({
+    graphqlRouter.use(`/${name}`, graphqlHTTP({
         schema: datasource.buildGraphQLSchema(),
         graphiql: true
     }))
