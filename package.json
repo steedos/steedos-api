@@ -6,17 +6,18 @@
   "author": "sunhaolin <sunhaolin@hotoa.com>",
   "license": "MIT",
   "dependencies": {
-    "@steedos/auth": "^1.0.3",
-    "@steedos/core": "^1.1.12",
-    "@steedos/objectql": "^0.0.5",
-    "@steedos/standard-objects": "^0.0.1",
+    "@steedos/auth": "^1.0.6",
+    "@steedos/core": "^1.1.22",
+    "@steedos/objectql": "^0.1.1",
+    "@steedos/standard-objects": "^0.0.4",
     "cookies": "^0.7.3",
     "express": "^4.16.4",
     "express-graphql": "^0.8.0",
     "underscore": "^1.9.1"
   },
   "resolutions": {
-    "@steedos/objectql": "^0.0.5",
-    "@steedos/standard-objects": "^0.0.1"
+    "@steedos/auth": "^1.0.6",
+    "@steedos/objectql": "^0.1.1",
+    "@steedos/standard-objects": "^0.0.4"
   }
 }
